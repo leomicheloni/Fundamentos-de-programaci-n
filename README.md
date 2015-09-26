@@ -62,7 +62,7 @@ int contador = 0; //declaramos la variable y le asignamos un valor inicial
 contador = contador +1; //matemáticamente es incorrecto, pero en programación es común decir "al valor que tenía antes sumar 1"
 ````
 Esto mismo se puede resumir así:
-````
+````csharp
 int contador = 0;
 contador++; //significa: agregar 1 al valor anterior de la variable contador
 ````
@@ -111,7 +111,7 @@ for(int i = 0; i < 10; i++){
 }
 ````
 
-Esto es un poco más complicado, vamos por partes; dentro de los paréntesis hay tres datos escenciales, primero declaramos una variable del tipo int (para que la use "for" para contar), segundo una condición que hace que todo lo que está dentro de las llaves "{}" del "for" se repita hasta que esta condición se alcance, y tercero "i++" es una forma resumida de decir ````i = i+1;````
+Esto es un poco más complicado, vamos por partes; dentro de los paréntesis hay tres datos escenciales, primero declaramos una variable del tipo int (para que la use "for" para contar), segundo una condición que hace que todo lo que está dentro de las llaves "{}" del "for" se repita hasta que esta condición se alcance, y tercero "i++" para incrementar i en 1 cada vez.
 Entonces este "bucle" (es el término correcto) for, se va a repetir 10 veces, ya que i comienza siendo 0, se incrementa una vez por cada repetición y tiene que hacerlo siempre que su valor sea menos a 10 (es decir, de 0 a 9)
 
 
