@@ -1,10 +1,17 @@
 # Fundamentos de programación
 
+Éste es un pequeño resumen sobre conceptos de programación en el cual se han simplificado muchos conceptos para facilitar la comprensión y que el mismo sea más compacto.
+
 ##Qué es un programa?
 
-Un programa es la forma en que le decimos a una computadora qué queremos que haga, paso a paso, con instrucciones simples, del mismo modo que cocinar es seguir una receta, un programa le dice a la computadora qué queremos que haga siguiendo un conjunto de pasos
+Un programa es la forma en que le decimos a una computadora qué queremos que haga, paso a paso, con instrucciones simples, del mismo modo que cocinar es seguir una receta, un programa le dice a la computadora qué queremos que haga siguiendo un conjunto de pasos.
 
-Desde un punto de vista práctico existen 3 elementos principales en la programación
+#Qué es un lenguaje de programación?
+
+Las computadores no entienden nuestro lenguaje sino que utilizan algo conocido como "código máquina", un lenguaje de programación nos permite expresar aquello que queremos hacer de un modo comprensible por nosotros siguiendo ciertas reglas que luego es convertido a código máquina por un programa llamado "compilador". 
+En este caso utilizaremos C# como lenguaje.
+
+Desde un punto de vista práctico existen 3 elementos principales en la programación tradicional:
 
 - Variables
 - Decisiones
@@ -14,10 +21,10 @@ Desde un punto de vista práctico existen 3 elementos principales en la programa
 
 Las variables son lugares en donde dejamos valores para utilizarlos después, por ejemplo, si queremos guardar un número de teléfono lo podemos dejar en una variable y luego recuperarlo.
 ````csharp
-int telefono;         //reservamos un lugar en la memoria
+int telefono;         //reservamos un lugar en la memoria RAM de la computadora
 telefono = 123123123; //colocamos el valor 123123123 en ese lugar de memoria
 ````
-(El texto después de las dobles barras "//" es un comentario y no es tenido en cuenta por csharp)
+(El texto después de las dobles barras "//" es un comentario y no es tenido en cuenta por C#)
 
 Algunas cosas más sobre variables:
 - Tienen un nombre único que las identifica (dentro del contexto en que están)
