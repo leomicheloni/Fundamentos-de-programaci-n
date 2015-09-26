@@ -8,7 +8,7 @@ Un programa es la forma en que le decimos a una computadora qué queremos que ha
 
 #Qué es un lenguaje de programación?
 
-Las computadores no entienden nuestro lenguaje sino que utilizan algo conocido como "código máquina", un lenguaje de programación nos permite expresar aquello que queremos hacer de un modo comprensible por nosotros siguiendo ciertas reglas que luego es convertido a código máquina por un programa llamado "compilador". 
+Las computadores no entienden nuestro lenguaje sino que utilizan algo conocido como "código máquina" (básicamente unos y ceros), un lenguaje de programación nos permite expresar aquello que queremos hacer de un modo comprensible por nosotros siguiendo ciertas reglas que luego es convertido a código máquina por un programa llamado "compilador". 
 En este caso utilizaremos C# como lenguaje.
 
 Desde un punto de vista práctico existen 3 elementos principales en la programación tradicional:
@@ -52,7 +52,7 @@ Existen otros tipos pero por ahora vamos a utilizar estos.
 ````csharp
 int edad = 12;
 string nombre = "Leonardo"; //las cadenas de texto se escriben entre comillas dobles
-double altura = 1.74; //en csharp se utiliza el punto "." para separar los decimales
+double altura = 1.74; //en C# se utiliza el punto "." para separar los decimales
 bool casado = true; //los booleanos toman dos posibles valores "true" o "false"
 ````
 
