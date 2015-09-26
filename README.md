@@ -17,6 +17,8 @@ Las variables son lugares en donde dejamos valores para utilizarlos después, po
 int telefono;         //reservamos un lugar en la memoria
 telefono = 123123123; //colocamos el valor 123123123 en ese lugar de memoria
 ````
+(El texto después de las dobles barras "//" es un comentario y no es tenido en cuenta por csharp)
+
 Algunas cosas más sobre variables:
 - Tienen un nombre único que las identifica (dentro del contexto en que están)
 - La acción de "guardar" un valor dentro a una variable se conoce como "asignación"
