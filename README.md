@@ -21,7 +21,7 @@ Desde un punto de vista práctico existen 3 elementos principales en la programa
 
 Las variables son lugares en donde dejamos valores para utilizarlos después, por ejemplo, si queremos guardar un número de teléfono lo podemos dejar en una variable y luego recuperarlo.
 ````csharp
-int telefono;         //reservamos un lugar en la memoria RAM de la computadora
+int telefono;         //reservamos un lugar en la memoria RAM de la computadora y le llamamos "telefono"
 telefono = 123123; //colocamos el valor 123123 en ese lugar de memoria
 ````
 (El texto después de las dobles barras "//" es un comentario y no es tenido en cuenta por C#)
