@@ -55,6 +55,12 @@ string nombre = "Leonardo"; //las cadenas de texto se escriben entre comillas do
 double altura = 1.74; //en C# se utiliza el punto "." para separar los decimales
 bool casado = true; //los booleanos toman dos posibles valores "true" o "false"
 ````
+Existen expresiones que se utilizan con las variables que pueden ser confusas (o matemáticamente extrañas) pero son bastante comunes, un caso típico es cuando queremos utilizar una variable para contar, es decir la variable tiene el valor 0 y lo queremos incrementar cada vez que algo ocurre, eso se escribiría así:
+
+````csharp
+int contador = 0; //declaramos la variable y le asignamos un valor inicial
+contador = contador +1; //matemáticamente es incorrecto, pero en programación es común decir "al valor que tenía antes sumar 1"
+````
 
 ##Decisiones
 Las decisiones son estructuras de control de flujo, es decir permiten decidir si hacer una cosa u otra dependiendo de ciertas circunstancias.
@@ -70,7 +76,7 @@ if(edad > 17){
 En este caso declaramos la variable edad de tipo entero (int, ya que la edad no tiene decimales) y luego evaluamos si es mayor que el número 17, notemos que hacemos una comparación directa en la variable y un valor fijo utilizando el signo > y que la condición que se evalua se encuentra encerrada entre paréntesis.
 Todo el código que agregemos dentro de las dos llaves ( { } ) se ejecutará si se cumple la condición solamente.
 
-###Condiciones booleanas
+###Condiciones
 Al final de cuentas toda condición que evaluamos en un bloque if termina siendo booleana, o sea que es verdadero o falso, algunos ejemplos.
 
 ````csharp
@@ -89,4 +95,19 @@ if(edad >= 21){
 ````
 
 Las condiciones de pueden combinar de muchas formas con operadores lógicos.
+Exite otro tipo de condiciones que vamos a ver más adelante junto con otros operadores lógicos que podemos utilizar en las evaluaciones.
+
+##Repeticiones
+Una repetición o iteración es una estructura que nos permite que algo ocurra un número de veces, por ejemplo que se muestre en la pantalla los números del 1 al 100, en lugar de escribir 100 veces la instrucción para imprimir en pantalla utilizamos una iteración.
+La iteración más común es "for" y significar "hacer algo hasta cumplir con una condición" en general esa condición es un contador.
+
+````csharp
+for(int i = 0; i < 10; i++){
+  //imprimir i
+}
+````
+
+Esto es un poco más complicado, vamos por partes; dentro de los paréntesis hay tres datos escenciales, primero declaramos una variable del tipo int (para que la use "for" para contar), segundo una condición que hace que todo lo que está dentro de las llaves "{}" del "for" se repita hasta que esta condición se alcance, y tercero "i++" es una forma resumida de decir ````i = i+1;````
+Entonces este "bucle" (es el término correcto) for, se va a repetir 10 veces, ya que i comienza siendo 0, se incrementa una vez por cada repetición y tiene que hacerlo siempre que su valor sea menos a 10 (es decir, de 0 a 9)
+
 
