@@ -1,6 +1,6 @@
 # Fundamentos de programación
 
-Éste es un pequeño resumen sobre conceptos de programación en el cual se han simplificado muchos conceptos para facilitar la comprensión y que el mismo sea más compacto.
+Éste es un pequeño resumen sobre conceptos de programación en el cual se han simplificado muchos conceptos para facilitar la comprensión y hacerlo más compacto.
 
 ##Qué es un programa?
 
@@ -8,7 +8,7 @@ Un programa es la forma en que le decimos a una computadora qué queremos que ha
 
 ##Qué es un lenguaje de programación?
 
-Las computadores no entienden nuestro lenguaje sino que utilizan algo conocido como "código máquina" (básicamente unos y ceros), un lenguaje de programación nos permite expresar aquello que queremos hacer de un modo comprensible por nosotros siguiendo ciertas reglas que luego es convertido a código máquina por un programa llamado "compilador". 
+Las computadores no entienden nuestro lenguaje sino que utilizan algo conocido como "código máquina" (básicamente unos y ceros), un lenguaje de programación nos permite expresar aquello que queremos hacer de un modo comprensible por nosotros siguiendo ciertas reglas, luego es convertido a código máquina por un programa llamado "compilador". 
 En este caso utilizaremos C# como lenguaje.
 
 Desde un punto de vista práctico existen 3 elementos principales en la programación tradicional:
