@@ -20,3 +20,14 @@ Algunas cosas más sobre variables:
 - Tienen un nombre único que las identifica (dentro del contexto en que están)
 - La acción de "guardar" un valor dentro a una variable se conoce como "asignación"
 
+En el ejemplo anterior asignamos el valor 123123123 a la variable "telefono", a partir de ahora podemos recuperar ese valor en otra parte de nuestro programa y, por supuesto, podemos cambiarlo cuando queramos.
+
+````csharp
+telefono = 011123123123;
+`````
+
+En este ejemplo cambiamos el valor de la variable "telefono", nótese que ya no usamos la palabra "var" delante, la misma sólo se utiliza al momento de declarar la variable.
+
+## Tipos de variables
+
+
