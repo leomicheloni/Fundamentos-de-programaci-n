@@ -40,8 +40,8 @@ En este ejemplo cambiamos el valor de la variable "telefono", nótese que ya no 
 
 ## Tipos de variables
 
-En el ejemplo del teléfono simplemente guardamos el valor y ya, esto reserva un lugar en memoria para nuestra variable, pero también indicamos "int" cuando la asignamos por primera vez, esto es porque existen diferentes tipos de variables, es decir, no es lo mismo guardar un texto como "hola mundo" a guarda un número como "123123", nosotros tenemos que indicar a C# qué tipo de valor vamos a guardar en esa varible.
-En el caso de C# los tipos más comunes son:
+En el ejemplo del teléfono simplemente guardamos el valor y ya, esto reserva un lugar en memoria para nuestra variable, pero también indicamos "int" cuando la declaramos, esto es porque existen diferentes tipos de variables, es decir, no es lo mismo guardar un texto como "hola mundo" a guarda un número como "123123", nosotros tenemos que indicar a C# qué tipo de valor vamos a guardar en esa varible.
+Los tipos más comunes son:
 
 - Enteros: int
 - Cadenas de texto: string
@@ -61,7 +61,11 @@ Existen expresiones que se utilizan con las variables que pueden ser confusas (o
 int contador = 0; //declaramos la variable y le asignamos un valor inicial
 contador = contador +1; //matemáticamente es incorrecto, pero en programación es común decir "al valor que tenía antes sumar 1"
 ````
-
+Esto mismo se puede resumir así:
+````
+int contador = 0;
+contador++; //significa: agregar 1 al valor anterior de la variable contador
+````
 ##Decisiones
 Las decisiones son estructuras de control de flujo, es decir permiten decidir si hacer una cosa u otra dependiendo de ciertas circunstancias.
 La estructura de control más utilizada es "if" que significar algo como "si se cumple cierta condición hacer esto", por ejemplo:
