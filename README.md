@@ -6,7 +6,7 @@
 
 Un programa es la forma en que le decimos a una computadora qué queremos que haga, paso a paso, con instrucciones simples, del mismo modo que cocinar es seguir una receta, un programa le dice a la computadora qué queremos que haga siguiendo un conjunto de pasos.
 
-#Qué es un lenguaje de programación?
+##Qué es un lenguaje de programación?
 
 Las computadores no entienden nuestro lenguaje sino que utilizan algo conocido como "código máquina" (básicamente unos y ceros), un lenguaje de programación nos permite expresar aquello que queremos hacer de un modo comprensible por nosotros siguiendo ciertas reglas que luego es convertido a código máquina por un programa llamado "compilador". 
 En este caso utilizaremos C# como lenguaje.
@@ -14,7 +14,7 @@ En este caso utilizaremos C# como lenguaje.
 Desde un punto de vista práctico existen 3 elementos principales en la programación tradicional:
 
 - Variables
-- Decisiones
+- Decisiones, control de flujo
 - Repeticiones
 
 ##Variables
@@ -56,5 +56,16 @@ double altura = 1.74; //en C# se utiliza el punto "." para separar los decimales
 bool casado = true; //los booleanos toman dos posibles valores "true" o "false"
 ````
 
+##Decisiones
+Las decisiones son estructuras de control de flujo, es decir, permite decidir si hacer una cosa u otra dependiendo de ciertas circunstancia, por ejemplo podemos decir que alguien es mayor de edad basados en su edad. 
+La estructura de control más utilizada es "if" se significar algo como "si se cumple cierta condición hacer esto", en el ejemplo de la edad sería así:
 
+````csharp
+int edad = 12;
+if(edad > 17){
+  //en esta parte hacemos algo basados en que la edad es mayor de 17 años
+}
+//el código aquí se ejecutará aunque no se cumpla la condición
+````
+En este ejemplo declaramos la variable edad de tipo entero (int, ya que la edad no tiene decimales) y luego evaluamos si es mayor que el número 17, notemos que hacemos una comparación directa en la variable y un valor fijo utilizando el signo >. Todo el código que agregemos dentro de las dos llaves ( { } ) se ejecutará si se cumple la condición.
 
