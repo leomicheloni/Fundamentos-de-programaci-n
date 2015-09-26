@@ -14,7 +14,8 @@ Desde un punto de vista práctico existen 3 elementos principales en la programa
 
 Las variables son lugares en donde dejamos valores para utilizarlos después, por ejemplo, si queremos guardar un número de teléfono lo podemos dejar en una variable y luego recuperarlo.
 ````csharp
-int telefono = 123123123;
+int telefono;         //reservamos un lugar en la memoria
+telefono = 123123123; //colocamos el valor 123123123 en ese lugar de memoria
 ````
 Algunas cosas más sobre variables:
 - Tienen un nombre único que las identifica (dentro del contexto en que están)
@@ -23,7 +24,7 @@ Algunas cosas más sobre variables:
 En el ejemplo anterior asignamos el valor 123123123 a la variable "telefono", a partir de ahora podemos recuperar ese valor en otra parte de nuestro programa y, por supuesto, podemos cambiarlo cuando queramos.
 
 ````csharp
-telefono = 011123123123;
+telefono = 011123123123; //cambiamos el valor anterior
 `````
 
 En este ejemplo cambiamos el valor de la variable "telefono", nótese que ya no usamos la palabra "int" delante, la misma sólo se utiliza al momento de declarar la variable.
@@ -39,4 +40,12 @@ En el caso de C# los tipos más comunes son:
 - Booleanos (true o false): bool
 
 Existen otros tipos pero por ahora vamos a utilizar estos.
+````csharp
+int edad = 12;
+string nombre = "Leonardo"; //las cadenas de texto se escriben entre comillas dobles
+double altura = 1.74; //en csharp se utiliza el punto "." para separar los decimales
+bool casado = true; //los booleanos toman dos posibles valores "true" o "false"
+````
+
+
 
