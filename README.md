@@ -57,8 +57,8 @@ bool casado = true; //los booleanos toman dos posibles valores "true" o "false"
 ````
 
 ##Decisiones
-Las decisiones son estructuras de control de flujo, es decir, permite decidir si hacer una cosa u otra dependiendo de ciertas circunstancia, por ejemplo podemos decir que alguien es mayor de edad basados en su edad. 
-La estructura de control más utilizada es "if" se significar algo como "si se cumple cierta condición hacer esto", en el ejemplo de la edad sería así:
+Las decisiones son estructuras de control de flujo, es decir permiten decidir si hacer una cosa u otra dependiendo de ciertas circunstancias.
+La estructura de control más utilizada es "if" que significar algo como "si se cumple cierta condición hacer esto", por ejemplo:
 
 ````csharp
 int edad = 12;
@@ -67,5 +67,26 @@ if(edad > 17){
 }
 //el código aquí se ejecutará aunque no se cumpla la condición
 ````
-En este ejemplo declaramos la variable edad de tipo entero (int, ya que la edad no tiene decimales) y luego evaluamos si es mayor que el número 17, notemos que hacemos una comparación directa en la variable y un valor fijo utilizando el signo >. Todo el código que agregemos dentro de las dos llaves ( { } ) se ejecutará si se cumple la condición.
+En este caso declaramos la variable edad de tipo entero (int, ya que la edad no tiene decimales) y luego evaluamos si es mayor que el número 17, notemos que hacemos una comparación directa en la variable y un valor fijo utilizando el signo > y que la condición que se evalua se encuentra encerrada entre paréntesis.
+Todo el código que agregemos dentro de las dos llaves ( { } ) se ejecutará si se cumple la condición solamente.
+
+###Condiciones booleanas
+Al final de cuentas toda condición que evaluamos en un bloque if termina siendo booleana, o sea que es verdadero o falso, algunos ejemplos.
+
+````csharp
+var edad = 17;
+if(edad == 18){ //hacemos la comparación de igualdad con dos signos =
+  //tiene exactamente 18 años de edad
+}
+
+if(edad > 18){
+  //es mayor de 18, es decir el 18 no cumple la condición
+}
+
+if(edad >= 21){
+  //la edad es igual o mayor a 21
+}
+````
+
+Las condiciones de pueden combinar de muchas formas con operadores lógicos.
 
