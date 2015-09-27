@@ -106,12 +106,16 @@ Una repetición o iteración es una estructura que nos permite que algo ocurra u
 La iteración más común es "for" y significar "hacer algo hasta cumplir con una condición" en general esa condición es un contador.
 
 ````csharp
-for(int i = 0; i < 10; i++){
+for(int i = 1; i < 101; i++){
   //imprimir i
 }
 ````
 
-Esto es un poco más complicado, vamos por partes; dentro de los paréntesis hay tres datos escenciales, primero declaramos una variable del tipo int (para que la use "for" para contar), segundo una condición que hace que todo lo que está dentro de las llaves "{}" del "for" se repita hasta que esta condición se alcance, y tercero "i++" para incrementar i en 1 cada vez.
-Entonces este "bucle" (es el término correcto) for, se va a repetir 10 veces, ya que i comienza siendo 0, se incrementa una vez por cada repetición y tiene que hacerlo siempre que su valor sea menos a 10 (es decir, de 0 a 9)
+Esto es un poco más complicado, vamos por partes; dentro de los paréntesis hay tres datos escenciales:
+- primero declaramos una variable del tipo int (para que la use "for" para contar) y le asignamos el valor 1.
+- segundo una condición que hace que todo lo que está dentro de las llaves "{}" del "for" se repita hasta que esta condición se alcance, en este caso mientras i sea menos a 101
+- y tercero "i++" para incrementar i en 1 cada vez.
+
+Entonces este "bucle" (es el término correcto) for, se va a repetir 100 veces, ya que i comienza siendo 1, se incrementa una vez por cada repetición y tiene que hacerlo siempre que su valor sea menos a 101 (es decir, de 1 a 100)
 
 
