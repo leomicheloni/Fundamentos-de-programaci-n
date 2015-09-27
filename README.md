@@ -66,6 +66,8 @@ Esto mismo se puede resumir así:
 int contador = 0;
 contador++; //significa: agregar 1 al valor anterior de la variable contador
 ````
+[Más sobre variables en C#](variables.md)
+
 ##Decisiones
 Las decisiones son estructuras de control de flujo, es decir permiten decidir si hacer una cosa u otra dependiendo de ciertas circunstancias.
 La estructura de control más utilizada es "if" que significar algo como "si se cumple cierta condición hacer esto", por ejemplo:
