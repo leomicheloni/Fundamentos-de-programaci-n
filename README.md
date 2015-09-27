@@ -2,6 +2,8 @@
 
 Éste es un pequeño resumen sobre conceptos de programación en el cual se han simplificado muchos conceptos para facilitar la comprensión y hacerlo más compacto.
 
+[¿Cómo está orgranizado esto?](organizacion.md)
+
 ##Qué es un programa?
 
 Un programa es la forma en que le decimos a una computadora qué queremos que haga, paso a paso, con instrucciones simples, del mismo modo que cocinar es seguir una receta, un programa le dice a la computadora qué queremos que haga siguiendo un conjunto de pasos.
