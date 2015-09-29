@@ -181,8 +181,20 @@ CalcularEdad(miEdad);
 ````
 En este caso declaramos la variable "miEdad" y luego llamamos a la función "CalcularEdad" y le pasamos esta variable como parámetro (podríamos pasar un valor diréctamente en lugar de una variable)
 
-###Valores de retorno
+````csharp
+CalcularEdad(16);
+````
 
+###Valores de retorno
+Las funciones pueden "devolver" un valor, es decir, hacer una tarea (calcular un resultado) y devolverlo, por ejemplo:
+````csharp
+function int Doble(int valor) // function int indica que la función devuelve un valor del tipo int
+{
+  return valor * 2; //la palabra clave return indica que la función debe devolver el valor
+}
+````
+En este ejemplo la función Doble, recibe un parámetro "valor" de tipo entero (int), la palabra void que usamos en los ejemplos anteriores se cambió por "int" para indicar que esta función devuelve un valor del tipo int (la palabra void que usábamos antes indica que no devuelve nada).
+Simplemente recibe un parámetro entero y devuelve el doble ````return valor * 2````
 
 
 
