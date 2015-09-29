@@ -13,11 +13,12 @@ Un programa es la forma en que le decimos a una computadora qué queremos que ha
 Las computadores no entienden nuestro lenguaje sino que utilizan algo conocido como "código máquina" (básicamente unos y ceros), un lenguaje de programación nos permite expresar aquello que queremos hacer de un modo comprensible por nosotros siguiendo ciertas reglas, luego es convertido a código máquina por un programa llamado "compilador". 
 En este caso utilizaremos C# como lenguaje.
 
-Desde un punto de vista práctico existen 3 elementos principales en la programación tradicional:
+Desde un punto de vista práctico existen 4 elementos principales en la programación tradicional:
 
-- Variables
+- [Variables](#variables)
 - Decisiones, control de flujo
 - Repeticiones
+- Funciones o rutinas
 
 ##Variables
 
@@ -128,5 +129,27 @@ Entonces este "bucle" (es el término correcto) for, se va a repetir 100 veces, 
 
 Otra estructura de repetición muy usada es while, [Acá se puede ver su uso](while.md)
 
+##Funciones o rutinas
+Las funciones son una forma de agrupa código que persigue una funcionalidad para poder usarla varias veces, por ejemplo
+
+````csharp
+function void Saludar()
+{
+  //imprimir saludo
+}
+````
+
+En este caso usamos la palabra clave "function" para indicar que queremos crear una función, y le ponemos un nombre (de momento ignoremos la palabra void, es necesaria pero la veremos en un instante)
+Entonces, desde cualquier parte de nuestro código podemos utilizar la función:
+
+````csharp
+var edad = 38;
+
+if(edad > 18)
+{
+  Saludar();
+}
+````
+En este ejemplo si se da la condición "invocamos" la función, es decir, hacemos que se ejecute (los paréntesis son necesarios siempre en C#)
 
 
