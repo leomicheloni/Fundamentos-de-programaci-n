@@ -105,6 +105,8 @@ if(edad >= 21){
 Las condiciones de pueden combinar de muchas formas con operadores lógicos.
 Exite otro tipo de condiciones que vamos a ver más adelante junto con otros operadores lógicos que podemos utilizar en las evaluaciones.
 
+[Más sobre condiciones](condiciones.md)
+
 ##Repeticiones
 Una repetición o iteración es una estructura que nos permite que algo ocurra un número de veces, por ejemplo que se muestre en la pantalla los números del 1 al 100, en lugar de escribir 100 veces la instrucción para imprimir en pantalla utilizamos una iteración.
 La iteración más común es "for" y significar "hacer algo hasta cumplir con una condición" en general esa condición es un contador.
