@@ -122,6 +122,11 @@ Esto es un poco más complicado, vamos por partes; dentro de los paréntesis hay
 - segundo una condición que hace que todo lo que está dentro de las llaves "{}" del "for" se repita hasta que esta condición se alcance, en este caso mientras i sea menos a 101
 - y tercero "i++" para incrementar i en 1 cada vez.
 
-Entonces este "bucle" (es el término correcto) for, se va a repetir 100 veces, ya que i comienza siendo 1, se incrementa una vez por cada repetición y tiene que hacerlo siempre que su valor sea menos a 101 (es decir, de 1 a 100)
+Entonces este "bucle" (es el término correcto) for, se va a repetir 100 veces, ya que i comienza siendo 1, se incrementa una vez por cada repetición y tiene que hacerlo siempre que su valor sea menos a 101 (es decir, de 1 a 100).
+
+[Más ejemplos con for](for.md)
+
+Otra estructura de repetición muy usada es while, [Acá se puede ver su uso](while.md)
+
 
 
