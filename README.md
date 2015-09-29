@@ -151,5 +151,39 @@ if(edad > 18)
 }
 ````
 En este ejemplo si se da la condición "invocamos" la función, es decir, hacemos que se ejecute (los paréntesis son necesarios siempre en C#)
+Como vemos todo lo que están entre las llaves ( { } ) es parte de la función (al igual que en caso del for y del if, las llaves definen los límites)
+Veamos algunas algunas características de las funciones:
+- Tienen un nombre único
+- Puden recibir parámetros
+- Tienen un valor de retorno
+
+Vamos a explicarlo, ya vimos lo del nombre, si queremos llamar a una función unívocamente tiene que tener un nombre único, eso es claro.
+
+###Parámetros en las funciones
+¿Qué pasa si queremos que la función haga un cálculo dentro? tenemos que tener un modo de "pasarle" un valor a la función para que lo utilice, a estos valores (que pueden ser varios) se les llama "parámetros", veamos un ejemplo:
+
+````csharp
+function void CalcularEdad(int edad)
+{
+ if(edad < 18)
+ {
+  //no puede ver la película porque es menos
+ }
+}
+````
+
+Este código sería la "definición" de la función, básicamente recibe un parámetro (dentro de los paréntesis) al que llamamos "edad" que tiene un tipo int, luego, dentro de la función utilizamos la variable en nuestra comparación.
+Para utilizar la función (es decir, invocarla) hacemos lo siguiente:
+
+````csharp
+var miEdad = 16;
+CalcularEdad(miEdad);
+````
+En este caso declaramos la variable "miEdad" y luego llamamos a la función "CalcularEdad" y le pasamos esta variable como parámetro (podríamos pasar un valor diréctamente en lugar de una variable)
+
+###Valores de retorno
+
+
+
 
 
