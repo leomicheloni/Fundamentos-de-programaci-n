@@ -16,9 +16,9 @@ En este caso utilizaremos C# como lenguaje.
 Desde un punto de vista práctico existen 4 elementos principales en la programación tradicional:
 
 - [Variables](#variables)
-- Decisiones, control de flujo
-- Repeticiones
-- Funciones o rutinas
+- [Decisiones, control de flujo](#decisiones)
+- [Repeticiones](#repeticiones)
+- [Funciones o rutinas](#functiones)
 
 ##Variables
 
