@@ -18,7 +18,7 @@ Desde un punto de vista práctico existen 4 elementos principales en la programa
 - [Variables](#variables)
 - [Decisiones, control de flujo](#decisiones)
 - [Repeticiones](#repeticiones)
-- [Funciones o rutinas](#functiones)
+- [Funciones o rutinas](#funciones-o-rutinas)
 
 ##Variables
 
